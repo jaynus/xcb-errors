@@ -1,0 +1,14 @@
+[package]
+name = "xcb-errors"
+version = "0.1.0"
+authors = ["Walter Pearce <jaynus@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+xcb = { path = "../../rust-xcb", features = ["randr"] }
+thiserror = "1.0"
+
+
+[build-dependencies]
+bindgen = "0.54"
+cc = "1.0"
